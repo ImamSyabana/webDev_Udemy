@@ -30,3 +30,27 @@
   height: 100px;
   border-radius: 50%;
 }
+
+.dogsRad{
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.flexDog{
+  flex-direction: row;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#features{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
