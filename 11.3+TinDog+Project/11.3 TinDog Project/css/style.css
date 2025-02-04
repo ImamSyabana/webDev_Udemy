@@ -55,8 +55,10 @@
 }
 
 .testi{
+  background-color:lightgray;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
 }
+
