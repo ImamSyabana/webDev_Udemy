@@ -48,6 +48,14 @@
   align-content: center;
 }
 
+.flexFooter{
+  flex-direction: row;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
 #features{
   display: flex;
   flex-wrap: wrap;
