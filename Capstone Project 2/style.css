@@ -70,3 +70,8 @@ h1{
     flex-wrap: wrap; /* Ensures responsiveness */
   }
   
+.imgFooter{
+    
+    border: 3px solid;
+    border-color: black;
+}
