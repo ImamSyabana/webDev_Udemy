@@ -24,7 +24,7 @@ function fibonacciGenerator (n) {
         else if (n < 1){
             alert("Please add a number greater than 0");
         }
-        return fibbonacciList; //return statement;
+        return fibbonacciList; //return statements;
         
         
         
