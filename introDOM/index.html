@@ -8,19 +8,23 @@
 
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1 id = "tittle">Hello</h1>
 
     <input type = "checkbox">
-    <button style = "color:red;">Click Me</button>
-    <ul>
-        <li class = "list">
+    <button class = "btn" style = "color:red;">Click Me</button>
+    <ul id = "list">
+        <li class = "item">
             <a href="https://www.google.com">Google</a>
         </li>
-        <li class = "list">Second</li>
-        <li class = "list">Third</li>
+        <li class = "item">Second</li>
+        <li class = "item">Third</li>
         
     </ul>
 
     <script src = "index.js" charset="utf-8"></script>
 </body>
 </html>
+
+
+<!-- kalo mau nunjuk element berdasarkan hubungan child parent nya -->
+<!-- document.firstElementChild.lastElementChild.querySelector("ul").lastElementChild.innerHTML = "Angela"; -->
